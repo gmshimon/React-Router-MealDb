@@ -35,13 +35,13 @@ const Header = () => {
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
                   <img
-                    className="block lg:hidden h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/workflow-mark.svg?color=indigo&shade=500"
+                    className="block lg:hidden h-8 w-auto bg-white"
+                    src="http://meabhy.lpdthemesdemo.com/wp-content/uploads/2020/08/logo-1.png"
                     alt="Workflow"
                   />
                   <img
-                    className="hidden lg:block h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/workflow-mark.svg?color=indigo&shade=500"
+                    className="hidden lg:block h-8 w-auto bg-white"
+                    src="http://meabhy.lpdthemesdemo.com/wp-content/uploads/2020/08/logo-1.png"
                     alt="Workflow"
                   />
                 </div>
