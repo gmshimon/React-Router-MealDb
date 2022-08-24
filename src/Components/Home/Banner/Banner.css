@@ -1,0 +1,36 @@
+.banner{
+    position: relative;
+    text-align: center;
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.waviy {
+    -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(249, 246, 246, 0.2));
+    font-size: 60px;
+  }
+
+.waviy span {
+    font-family: 'Alfa Slab One', cursive;
+    position: relative;
+    display: inline-block;
+    color: rgb(243, 243, 243);
+    text-transform: uppercase;
+    animation: waviy 2s infinite linear;
+    animation-delay: calc(.1s * var(--i));
+    
+}
+
+@keyframes waviy {
+    0%,40%,100% {
+      transform: translateY(0)
+    }
+    20% {
+      transform: translateY(-20px)
+    }
+}
