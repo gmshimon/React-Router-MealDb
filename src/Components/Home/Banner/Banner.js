@@ -6,7 +6,7 @@ const Banner = () => {
   return (
     <div className="banner">
       <img src={bannerImg} alt="" style={{ width: "100%", height: "900px" }} />
-      <div class="waviy centered italic">
+      <div className="waviy centered italic">
         <span style={{'--i':1}}>E</span>
         <span style={{'--i':2}}>A</span>
         <span style={{'--i':3}}>T</span>
