@@ -11,11 +11,11 @@ const MealOfDay = () => {
     console.log(food)
     const {strArea,strCategory,strMeal,strTags,strYoutube,strMealThumb} = food;
     return (
-        <section className="w-full flex my-20">
+        <section className="w-full flex my-20 xl:px-40">
             <div className="w-1/2">
-                <img style={{width:'100%', height:'750px'}} src={strMealThumb} alt="" />
+                <img style={{width:'100%', height:'650px'}} src={strMealThumb} alt="" />
             </div>
-            <section className="w-1/2"  style={{backgroundColor:'rgb(247,245,242)', height:'750px'} }>
+            <section className="w-1/2"  style={{backgroundColor:'rgb(247,245,242)', height:'650px'} }>
                 <div className="w-full flex items-center justify-center pt-24" >
                     <div className="grid grid-cols-2 gap-64"  >
                         <div className="text-center">

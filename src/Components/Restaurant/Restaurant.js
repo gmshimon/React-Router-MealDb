@@ -43,11 +43,11 @@ const Restaurant = () => {
             setMeals(data.meals);
         })
     },[searchText])
-
+    // 
     return (
-        <div style={{height:"100vh"}} className=" bg-slate-200">
+        <div style={meals==null?{height:'60.2rem'}:{height:'100%'}} className="relative pb-12 bg-slate-200">
             <div className="text-center">
-                <h1 className="pt-6 text-5xl">Ajke onk khawa dawa hobe</h1>
+                <h1 className="pb-6 text-5xl">Ajke onk khawa dawa hobe</h1>
                 <input ref={text} className=" mt-8 w-1/5 px-3 h-10  bg-white border border-slate-300 rounded-xl text-xl shadow-sm placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500" type="text" placeholder="search food"/>
                 <button onClick={handleClick} className="bg-green-400 py-2 px-5 ml-2 rounded-xl border-0 text-md font-semibold hover:bg-green-600">Search</button>
             </div>

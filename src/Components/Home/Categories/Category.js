@@ -4,8 +4,7 @@ const Category = (props) => {
   // console.log(props.category);
   return (
     <div
-      className="w-2/5 flex
-        items-center justify-between bg-slate-400 p-4"
+      className="xl:w-3/5 lg:w-3/5 md:w-full flex items-center justify-between bg-slate-400 p-4"
       style={{ height: "600px" }}
     >
       <img src={props.category?.strCategoryThumb} alt="" />
